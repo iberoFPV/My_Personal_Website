@@ -498,29 +498,33 @@ h3 .dev {
     margin-bottom: 1.25em;
 }
 .skillsimg{
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-around;
+    gap: 5rem;
 }
 .imgskill{
     width: 19rem;
     margin-top: 2rem;
-    padding: 1rem;
-    margin-left: 8rem;
+    padding: 0rem;
+    margin-left: 0rem;
 }
 @media screen and (max-width:700px) {
-.imgskill{
-    width: 10rem;
-    margin-left: 0rem;
-}       
+    .imgskill{
+        width: 10rem;
+        margin-left: 0rem;
+    }       
 }
 @media screen and (max-width:400px) {
-.imgskill{
-    width: 10rem;
-    margin-left: 0rem;
-}  
+    .imgskill{
+        width: 10rem;
+        margin-left: 0rem;
+    }
+    .skillsimg {
+        gap: 2rem;
+    }
 } 
 
 
