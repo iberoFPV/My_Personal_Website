@@ -329,8 +329,8 @@ span {
 }
 
 .about-img img {
-    width: 90%;
-    border-radius: 50%;
+    width: 80%;
+    border-radius: 30%;
     border: .2rem solid var(--main-color);
 }
 
@@ -544,7 +544,7 @@ h3 .dev {
     width: 13.75rem;
     height: 23.75rem;
     object-fit: cover;
-    animation: foto 3.5s linear infinite;
+    /* animation: foto 3.5s linear infinite; */
     display: flex;
     justify-content: flex-start;
 }
